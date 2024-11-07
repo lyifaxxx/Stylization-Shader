@@ -94,7 +94,7 @@ Material:
     - _AlphaToMask: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
-    - _Border_Thinkness: -0.11
+    - _Border_Thinkness: 0.04
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
@@ -131,7 +131,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 0.745283, g: 0.1511659, b: 0.1511659, a: 1}
-    - _Border_Color: {r: 0.6281818, g: 0.41451588, b: 0.764151, a: 1}
+    - _Border_Color: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 1}
     - _Color: {r: 0.745283, g: 0.15116587, b: 0.15116587, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Noise_Color: {r: 0.5566038, g: 0.37803882, b: 0.29142934, a: 0}

@@ -58,5 +58,5 @@ Material:
     - _Thickness: 9.56
     m_Colors:
     - _Color: {r: 0.36078432, g: 0.039215688, b: 0.019607844, a: 1}
-    - _Edge_Color: {r: 0.5566038, g: 0.54872733, b: 0.5547362, a: 0}
+    - _Edge_Color: {r: 0.8301887, g: 0.57564974, b: 0.7029192, a: 0}
   m_BuildTextureStacks: []
