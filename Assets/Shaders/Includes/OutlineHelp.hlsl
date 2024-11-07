@@ -31,11 +31,28 @@ static float sobelKernelY[9] = {
 
 void sobel_find_edges_float(float2 uv, float Thickness, out float Out)
 {
-	float2 sobel = 0;
-	[unroll] for (int i = 0; i < 9; i++) {
-		float depth = SHADERGRAPH_SAMPLE_SCENE_DEPTH(uv + sobelSamplePoints[i] * Thickness);
-		sobel += depth * float2(sobelKernelX[i], sobelKernelY[i]);
-	}
+    float2 sobelDepth = 0;
+    float2 sobelNormal = 0;
 
-	Out = length(sobel);
+    float3 centerNormal;
+    GetNormal_float(uv, centerNormal);
+
+    [unroll] for (int i = 0; i < 9; i++) {
+        // Depth-based Sobel filter
+        float depth;
+        GetDepth_float(uv + sobelSamplePoints[i]* Thickness, depth); //SHADERGRAPH_SAMPLE_SCENE_DEPTH(uv + sobelSamplePoints[i] * Thickness);
+        sobelDepth += depth * float2(sobelKernelX[i], sobelKernelY[i]);
+
+        // Normal-based Sobel filter
+        float3 sampleNormal;
+        GetNormal_float(uv + sobelSamplePoints[i] * Thickness, sampleNormal);
+        float3 normalDifference = centerNormal - sampleNormal;
+        float normalMagnitude = length(normalDifference);
+        sobelNormal += normalMagnitude * float2(sobelKernelX[i], sobelKernelY[i]);
+    }
+
+    // Combine depth and normal-based edge detection
+    float edgeStrengthDepth = length(sobelDepth);
+    float edgeStrengthNormal = length(sobelNormal);
+    Out = edgeStrengthDepth + edgeStrengthNormal; // Combine strengths
 }

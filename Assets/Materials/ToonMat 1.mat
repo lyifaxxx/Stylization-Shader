@@ -70,6 +70,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Main_Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -83,7 +87,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_f91e8d5ba8564f81ae5c2acba1ae04c2_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 5413cbd07dd0634488650546d3a323d2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7df352acb22bf0640bf4cb10708c8230, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -140,6 +144,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _Surface: 0
     - _Threshold: 0.285
+    - _Use_Main_Texture: 0
     - _Use_Shadow_texture: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
@@ -147,10 +152,10 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Hightlight: {r: 0.93725497, g: 0.9607844, b: 0.7725491, a: 0}
-    - _Midtone: {r: 0.45412073, g: 0.6132076, b: 0.45412073, a: 0}
+    - _Hightlight: {r: 0.3262115, g: 0.3490566, b: 0.16629584, a: 0}
+    - _Midtone: {r: 0.06950873, g: 0.20754719, b: 0.06950873, a: 0}
     - _Ramped_Diffuse_Values: {r: 0.2, g: 0.4, b: 1, a: 0}
-    - _Shadow: {r: 0.09505162, g: 0.2264151, b: 0.09505162, a: 0}
+    - _Shadow: {r: 0.031772874, g: 0.13207549, b: 0.031772874, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Thresholds: {r: 0.2, g: 0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
