@@ -94,7 +94,7 @@ Material:
     - _AlphaToMask: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
-    - _Border_Thinkness: 0.15
+    - _Border_Thinkness: -0.11
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
@@ -117,26 +117,26 @@ Material:
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Screen_Exposure: 1
+    - _Screen_Exposure: 1.18
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
-    - _Tone_Intensity: 1
+    - _Tone_Intensity: 1.51
     - _Use_ACES_Tone_Mapping: 1
     - _Vignette_Power: 1.33
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 0.745283, g: 0.1511659, b: 0.1511659, a: 1}
-    - _Border_Color: {r: 0.3679245, g: 0.20337225, b: 0.01561943, a: 0}
+    - _Border_Color: {r: 0.6281818, g: 0.41451588, b: 0.764151, a: 1}
     - _Color: {r: 0.745283, g: 0.15116587, b: 0.15116587, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Noise_Color: {r: 0.4056604, g: 0.19772753, b: 0.19772753, a: 0}
+    - _Noise_Color: {r: 0.5566038, g: 0.37803882, b: 0.29142934, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Vignette_Color: {r: 0.3647059, g: 0.16862746, b: 0.07058824, a: 0}
+    - _Vignette_Color: {r: 0.745283, g: 0.27772337, b: 0.32580563, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &5008763899483007720
 MonoBehaviour:
