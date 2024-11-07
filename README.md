@@ -5,6 +5,10 @@
 https://github.com/user-attachments/assets/2fea6dea-25ec-483b-ab84-9414f805cfab
 
 
+| <img src="https://github.com/user-attachments/assets/a73eeb7f-032a-459c-8eae-e615d20f1da1" width="500"/> | <img src="https://github.com/user-attachments/assets/66abf8fd-fb71-4f84-9db2-35ff5f3640a5" width="500"/> |
+|---------------------------|---------------------------|
+| <img src="https://github.com/user-attachments/assets/d7f265ad-8778-4180-93f4-91e81eb514d0" width="500"/> | <img src="https://github.com/user-attachments/assets/48f03635-3516-4a41-ad25-931d162f1690" width="500"/> |
+
 
 ## Project Overview:
 In this assignment, you will use a 2D concept art piece as inspiration to create a 3D Stylized scene in Unity. This will give you the opportunity to explore stylized graphics techniques alongside non-photo-realistic (NPR) real-time rendering workflows in Unity.
